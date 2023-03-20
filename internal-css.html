@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Internal CSS</title>
+     <style>
+          /* penerapan menggunakan universal selector */
+          * {
+               font-family: 'Courier New', Courier, monospace;
+          }
+
+          h1{
+               color: gold;
+          }
+          p{
+               color: darkblue;
+          }
+
+          .bg-khaki{
+               background-color: lightskyblue;
+          }
+
+          .bg-biru{
+               background-color: coral;
+          }
+
+          #margin{
+               margin: 20px;
+          }
+
+          #padding{
+               padding: 20px;
+          }
+
+     </style>
+</head>
+<body>
+     <h1>Internal CSS</h1>
+     <a href="index.html">Kembali ke index</a>
+
+     <hr>
+     <!-- color -->
+     <div>
+          <h1>Color</h1>
+          <p>Menambahkan color dengan cara Internal CSS</p>
+     </div>
+
+     <!-- background -->
+     <div class="bg-khaki">
+          <h1>Background</h1>
+          <p>Menambahkan background dengan cara Internal CSS</p>
+     </div>
+
+     <!-- border -->
+     <div class="bg-biru">
+          <h1>Border</h1>
+          <p>Menambahkan border dengan cara Internal CSS</p>
+     </div>
+
+     <!-- margin -->
+     <div id="margin" class="bg-khaki">
+          <h1>Margin</h1>
+          <p>Menambahkan margin dengan cara Internal CSS</p>
+     </div>
+
+     <!-- padding -->
+     <div id="padding" class="bg-khaki">
+          <h1>Padding</h1>
+          <p>Menambahkan padding dengan cara Internal CSS</p>
+     </div>
+
+
+</body>
+</html>

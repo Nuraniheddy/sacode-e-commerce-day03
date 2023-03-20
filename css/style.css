@@ -1,0 +1,33 @@
+*{
+     font-family: monospace;
+}
+
+h1{
+     color: black;
+}
+
+p{
+     color:darkgoldenrod
+}
+
+.bg-hitam{
+     background-color: yellowgreen;
+}
+
+.bg-biru{
+     background-color: darkseagreen;
+}
+
+#border{
+     border-style: solid;
+     border-color: black;
+     border: 20px;
+}
+
+#margin{
+     margin: 20px;
+}
+
+#padding{
+     padding: 20px;
+}
